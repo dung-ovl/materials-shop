@@ -12,7 +12,7 @@ function Contact() {
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [comment, setComment] = useState("");
-    var submitBtn = function (e) {
+    var submitBtn = function () {
         if (isVerified) {
             alert("Đã gửi thành công!");
             window.scrollTo(0, 0);
@@ -29,7 +29,7 @@ function Contact() {
                 Time: date,
             };
             axios.post(
-                "https://sheet.best/api/sheets/f5c1792b-3031-4731-bd6e-08574fceba2e",
+                "https://sheet.best/api/sheets/54f253e5-2881-4496-8ed4-a16c8dab6fb2",
                 data
             );
             setFirstName("");
@@ -37,7 +37,6 @@ function Contact() {
             setEmail("");
             setComment("");
         }
-        e.preventDefault();
     };
     var checkCaptcha = function (e) {
         var x = document.getElementById("error");
@@ -45,6 +44,7 @@ function Contact() {
             x.style.display = "block";
         } else {
             x.style.display = "none";
+            submitBtn();
         }
     };
     var onChangeCaptcha = function (e) {
@@ -104,9 +104,9 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-            </Container>
+            </Container>    
             <Container>
-                <form onSubmit={submitBtn} className="contact-form">
+                <form onSubmit={checkCaptcha} className="contact-form">
                     <div className="row">
                         <div className="col-md-4 mb-2 p-2">
                             <input
@@ -166,7 +166,6 @@ function Contact() {
                     </span>
                     <div className="div-submit-contact">
                         <input
-                            onClick={checkCaptcha}
                             type="submit"
                             className="btn btn-primary btn-lg contact-submit"
                             value="Gửi"

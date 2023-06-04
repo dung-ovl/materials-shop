@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Contact from './pages/Contact';
+import Project from './pages/Project';
+import ProjectDetail from './pages/ProjectDetail';
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 function App() {
   return (
-    <Contact/>
+
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +24,12 @@ function App() {
     //     </a>
     //   </header>
     // </div>
+    <div>
+      <Routes>
+        <Route path='project' element={<Project />} />
+        <Route path='project/:id' element={<ProjectDetail />} />
+      </Routes>
+    </div>
   );
 }
 
