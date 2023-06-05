@@ -43,7 +43,7 @@ function Home() {
             <Col xl="5" md="8">
               <div className="hero-section__content shadow-lg rounded">
                 <h1 className="fw-bold display-6">
-                  HIỆN THỰC HÓA ƯỚC MƠ CÔNG NGHỆ
+                  CHO PHONG CÁCH SỐNG SÁNG TẠO HƠN
                 </h1>
                 <p className="my-5">Đổi mới sáng tạo, truy cầu sự hoàn hảo</p>
                 <Link reloadDocument to="/products">

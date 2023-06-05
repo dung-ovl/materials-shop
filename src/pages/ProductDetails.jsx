@@ -274,7 +274,7 @@ function ProductDetails() {
               <h2 className="my-3">Mọi người cũng tìm kiếm</h2>
             </Col>
           </Row>
-          <Row className="g-3">
+          <Row className="g-3 mt-5">
             <ProductList data={relatedProduct} />
           </Row>
         </Container>

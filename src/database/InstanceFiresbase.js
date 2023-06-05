@@ -3,12 +3,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDtg6AocZ8SgDlvfp6Y2X4QtC38zHp8Jrk",
-    authDomain: "goodsman-1dd35.firebaseapp.com",
-    projectId: "goodsman-1dd35",
-    storageBucket: "goodsman-1dd35.appspot.com",
-    messagingSenderId: "356149107049",
-    appId: "1:356149107049:web:9d935466825c16ecc185f8"
+    apiKey: "AIzaSyDEgWf615yQYhacGMiQe1BzoDg87ComQ9E",
+    authDomain: "material-shop-7756e.firebaseapp.com",
+    projectId: "material-shop-7756e",
+    storageBucket: "material-shop-7756e.appspot.com",
+    messagingSenderId: "806482380008",
+    appId: "1:806482380008:web:2b514d3c91d4a6974cb55d",
 };
 
 

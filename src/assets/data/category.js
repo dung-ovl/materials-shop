@@ -1,9 +1,9 @@
 import sofaCategoryImg from '../images/sofa.jpg'
-import mobileCategoryImg from '../images/mobile.jpg'
+import tablesCategoryImg from '../images/tables.jpg'
 import chairCategoryImg from '../images/chair.jpg'
-import watchCategoryImg from '../images/watch.jpg'
-import wirelessCategoryImg from '../images/wireless.jpg'
-import laptopCategoryImg from '../images/laptop.jpg'
+import stoolsCategoryImg from '../images/stools.jpg'
+import bedsCategoryImg from '../images/bed.jpg'
+import wallpapersCategoryImg from '../images/wallpaper.jpg'
 
 
 const category = [
@@ -12,24 +12,24 @@ const category = [
         imgUrl: sofaCategoryImg
     },
     {
-        categoryName: "mobile",
-        imgUrl: mobileCategoryImg
+        categoryName: "tables",
+        imgUrl: tablesCategoryImg
     },
     {
         categoryName: "chair",
         imgUrl: chairCategoryImg
     },
     {
-        categoryName: "watch",
-        imgUrl: watchCategoryImg
+        categoryName: "stools",
+        imgUrl: stoolsCategoryImg
     },
     {
-        categoryName: "wireless",
-        imgUrl: wirelessCategoryImg
+        categoryName: "beds",
+        imgUrl: bedsCategoryImg
     },
     {
-        categoryName: "laptop",
-        imgUrl: laptopCategoryImg
+        categoryName: "wallpapers",
+        imgUrl: wallpapersCategoryImg
     },
 ];
 
