@@ -3,6 +3,7 @@ import { firebaseFirestore } from './InstanceFiresbase'
 import { collection, getDocs, onSnapshot } from 'firebase/firestore'
 import { useEffect } from 'react'
 import { async } from '@firebase/util'
+import productData from "../assets/data/product";
 
 function UseGetData(collectionName) {
 

@@ -15,7 +15,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--hero-bg);
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .nav-wrapper {
