@@ -180,7 +180,9 @@ function Products() {
                                 starDimension="24px"
                                 starSpacing="2px"
                                 svgIconViewBox="0 0 24 24"
-                                svgIconPath="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"
+                                svgIconPath="M12 18.26l-7.053 3.948 1.575-7.928L.587 
+                                8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 
+                                5.488 1.575 7.928z"
                               />
                             </span>
                             <p className="text-black">&#x2191;</p>
